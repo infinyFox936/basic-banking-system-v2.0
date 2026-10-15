@@ -76,3 +76,7 @@ MIT License - feel free to use and modify!
 
 ---
 Author: https://github.com/infinyFox936
+
+---
+The code was made manually (no AI, except for a little debugging)
+The README.md and the description were made by Qwen3.5 9B
