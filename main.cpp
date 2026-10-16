@@ -1,17 +1,11 @@
 #include <iostream>
 #include <string>
 #include "src/account.hpp"
+#include "src/info.hpp"
 using namespace std;
 
 int main()
 {
-    /*
-    testing
-    Account person("Steve Jobs");
-    person.deposit(100);
-    person.checkBalance();
-    person.listDetails();
-    */
     string accName;
     char option;
     int amount;
@@ -35,6 +29,7 @@ int main()
         cout << "w - withdraw money from the account" << endl;
         cout << "d - deposit money from the account" << endl;
         cout << "b - show balance of the account" << endl;
+        cout << "i - show info of program and author" << endl;
         cout << "q - quit" << endl;
 
         cout << "--" << endl;
@@ -67,10 +62,13 @@ int main()
         case 'b':
             account.checkBalance();
             break;
-
+        
+        case 'i':
+            programInfo();
+            break;
+            
         case 'q':
             cout << "https://github.com/infinyFox936" << endl;
-            cout << "thx for taking your precoius time to check a stupid extremely simple bnking system; transactions prob coming 👀";
             return 0;
             break;
 
