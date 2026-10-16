@@ -17,7 +17,7 @@ int main()
     int amount;
     
     cout << "######################################################################" << endl;
-    cout << "#                EXTREMELY SIMPLE BANKING SYSTEM v2.0                #" << endl;
+    cout << "#                     SIMPLE BANKING SYSTEM v2.0                     #" << endl;
     cout << "######################################################################" << endl << endl << endl;
 
     cout << "Account name (one word only): ";

@@ -35,6 +35,6 @@ void Account::listDetails()
     cout << "--------" << endl;
     cout << "Account details" << endl;
     cout << "Name: " << name << endl;
-    cout << "Balance: " << balance << endl;
+    cout << "Balance: " << balance << "$" << endl;
     cout << "--------" << endl;
 }
