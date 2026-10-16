@@ -19,8 +19,11 @@ A command-line banking management system written in C++.
 1. Clone or download the repository
 2. Compile the source files:
    ```bash
-   g++ main.cpp src/account.cpp -o bank-system
+   g++ main.cpp src/account.cpp -o banking-system
    ```
+or
+1. Download the binary release
+2. change permissions so the file can be executable (on Mac / Linux): `chmod +x banking-system`
 
 ## Usage
 
