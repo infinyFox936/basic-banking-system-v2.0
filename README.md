@@ -38,17 +38,6 @@ A command-line banking management system written in C++.
    - `b` - Check current balance
    - `q` - Quit
 
-## Project Structure
-
-```
-.
-├── main.cpp          # Main program entry point
-├── src/
-│   ├── account.hpp   # Account class declaration
-│   └── account.cpp   # Account class implementation
-└── README.md         # This file
-```
-
 ## How It Works
 
 The `Account` class manages account operations:
@@ -56,19 +45,6 @@ The `Account` class manages account operations:
 - `name`: String storing the account holder's name
 
 All operations validate that withdrawal amounts don't exceed the current balance.
-
-## Compilation with CMake
-
-For easier building, consider adding a CMakeLists.txt:
-
-```cmake
-cmake_minimum_required(VERSION 3.10)
-project(bank-system)
-
-set(CMAKE_CXX_STANDARD 11)
-
-add_executable(bank-system main.cpp src/account.cpp)
-```
 
 ## License
 
