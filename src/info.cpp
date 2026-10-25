@@ -2,8 +2,7 @@
 #include "info.hpp"
 using namespace std;
 
-void programInfo()
-{
+void programInfo() {
     cout << "SIMPLE BANKING SYSTEM" << endl;
     cout << "| Author: infinyFox936" << endl;
     cout << "| Link: https://github.com/infinyFox936" << endl;
