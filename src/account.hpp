@@ -9,7 +9,7 @@ class Account {
         void withdraw(int amount);
         void checkBalance();
         void listDetails();
+        string name;
     private:
         int balance = 0;
-        string name;
 };
