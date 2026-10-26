@@ -17,7 +17,7 @@ void Account::deposit(int amount) {
 
 void Account::withdraw(int amount) {
     if(amount > balance) {
-        cout << "Not enough money!" << endl;
+        cout << "Not enough money" << endl;
     } else if(amount < 0) {
         cout << "Invalid option" << endl;
     } else {

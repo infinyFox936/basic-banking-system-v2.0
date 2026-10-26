@@ -2,14 +2,12 @@
 #include <string>
 using namespace std;
 
-class Account {
-    public:
-        Account(string accName);
-        void deposit(int amount);
-        void withdraw(int amount);
-        void checkBalance();
-        void listDetails();
-    private:
-        int balance = 0;
-        string name;
+struct Account {
+    Account(string accName);
+    void deposit(int amount);
+    void withdraw(int amount);
+    void checkBalance();
+    void listDetails();
+    string name;
+    int balance = 0; // I know this isnt optimal at all but its a fix for char option = 't'
 };
