@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "src/account.hpp"
-#include "src/info.hpp"
+#include "account.hpp"
+#include "info.hpp"
 using namespace std;
 
 int main() {
@@ -16,9 +16,12 @@ int main() {
 
     vector<Account> accounts;
 
-    cout << "######################################################################" << endl;
-    cout << "#                     SIMPLE BANKING SYSTEM v2.0                     #" << endl;
-    cout << "######################################################################" << endl;
+    cout << "██████╗ ██████╗ ███████╗    ██╗██████╗     ██████╗ " << endl;
+    cout << "██╔══██╗██╔══██╗██╔════╝   ██╔╝╚════██╗   ██╔═████╗" << endl;
+    cout << "██████╔╝██████╔╝███████╗  ██╔╝  █████╔╝   ██║██╔██║" << endl;
+    cout << "██╔══██╗██╔══██╗╚════██║ ██╔╝  ██╔═══╝    ████╔╝██║" << endl;
+    cout << "██████╔╝██████╔╝███████║██╔╝   ███████╗██╗╚██████╔╝" << endl;
+    cout << "╚═════╝ ╚═════╝ ╚══════╝╚═╝    ╚══════╝╚═╝ ╚═════╝ " << endl;
     cout << "/fox" << endl;
     
     cout << endl;
