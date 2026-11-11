@@ -90,6 +90,7 @@ int main() {
                 
                 Account acc(acc_name);
                 accounts.push_back(acc);
+                break;
             }
 
             
