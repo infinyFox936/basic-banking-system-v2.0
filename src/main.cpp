@@ -8,7 +8,7 @@ using namespace std;
 int main() {
     string acc_name;
     char option;
-    int amount;
+    double amount;
     // serves as 'i' in a for loop
     // is used to know the selected account for option being a, w, d, b
     // 0 for the first account (created on line 27)

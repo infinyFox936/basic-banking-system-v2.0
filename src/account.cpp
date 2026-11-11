@@ -7,7 +7,7 @@ Account::Account(string accName) {
     name = accName;
 }
 
-void Account::deposit(int amount) {
+void Account::deposit(double amount) {
     if (amount < 0) {
         cout << "Invalid option" << endl;
     } else {
@@ -15,7 +15,7 @@ void Account::deposit(int amount) {
     }
 }
 
-void Account::withdraw(int amount) {
+void Account::withdraw(double amount) {
     if(amount > balance) {
         cout << "Not enough money" << endl;
     } else if(amount < 0) {
